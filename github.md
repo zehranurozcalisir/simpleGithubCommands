@@ -28,7 +28,7 @@
 |**git log --summary / -oneline**|Views changes|
 |**git diff [source branch] [target branch]**|Shows differences between 2 branch|
 
-###.gitignore file
+### .gitignore file
 > Prevents tracking of changes in some files.
 ### .gitkeep file
 >Tracks changes even though the file is empty
