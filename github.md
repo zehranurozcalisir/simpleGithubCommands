@@ -4,7 +4,8 @@
 |**git init**|The folder is converted to GIT file|
 |**git clone** url| Pulls github files into the folder|
 |**git status**| Shows changes made to the project|
-|**git add . -fileway**|Adds codes into staging area |
+|**git add . -file**|Adds codes into staging area |
+|**git restore --staged**|Rverts changes|
 |**git commit -m**|Saves changes permanently|
 |**git commit -a -m / -am**|Saves the changes in the project without git add but does not add new classes|
 |**git rm -r [file_name]**|Ramove file|
@@ -23,3 +24,11 @@
 |**git push origin [branch name]**|The branch is sent to the remote repository|
 |**git push** |Sends all changes|
 |**git push origin --delete [branch name]**| Deletes the branch in origin |
+|**git pull origin [branch_name]**| Pulls changes|
+|**git log --summary / -oneline**|Views changes|
+|**git diff [source branch] [target branch]**|Shows differences between 2 branch|
+
+###.gitignore file
+> Prevents tracking of changes in some files.
+### .gitkeep file
+>Tracks changes even though the file is empty
