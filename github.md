@@ -8,9 +8,9 @@
 |**git restore --staged**|Rverts changes|
 |**git commit -m**|Saves changes permanently|
 |**git commit -a -m / -am**|Saves the changes in the project without git add but does not add new classes|
-|**git rm -r [file_name]**|Ramove file|
-|**git brach -a**|Lists all branch|
-|**git brach [branch_name]**|Creates a new branch|
+|**git rm -r [file_name]**|Remove file|
+|**git branch -a**|Lists all branch|
+|**git branch [branch_name]**|Creates a new branch|
 |**git branch -d [branch_name]**|Deletes a branch|	Merge a branch into the active branch
 |**git push origin --delete [branch_name]**| Delete a remote branch|
 |**git checkout -b [branch_name]**|Creates a new branch and switches to it |
